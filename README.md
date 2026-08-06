@@ -129,6 +129,20 @@ Delete your current ESET HOME account
 
 ---
 
+## Credit Card Checker
+
+This repository also includes a standalone offline Python credit card checker.
+
+Run it with:
+
+```bash
+python credit_card_checker.py 4111-1111-1111-1111
+```
+
+It performs local issuer detection and a Luhn check only. It does not contact any external service.
+
+---
+
 ## 4. How to use (Part 2)
 1. [Account Generator](wiki/AccountGenerator.md)
 2. [Key Generator](wiki/KeyGenerator.md)
